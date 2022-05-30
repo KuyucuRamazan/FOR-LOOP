@@ -1,0 +1,11 @@
+public static void main(String[] args) {
+        //interview question: type code which reverse the string
+
+        String s = "Tommy";
+        String reversed="";
+
+        for (int i=s.length()-1; i>=0; i--){
+
+            reversed = reversed + s.charAt(i);
+
+        }
