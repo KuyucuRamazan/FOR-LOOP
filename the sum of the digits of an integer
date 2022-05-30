@@ -1,0 +1,14 @@
+//Type code to find the sum of the digits of an integer
+        //234==>9
+   
+        Scanner input= new Scanner(System.in);
+        System.out.println("Enter an integer to find the sum ofdigits");
+        int num = input.nextInt();
+
+        int absNum=Math.abs(num);
+
+        int sumOfDigits = 0;
+        for(int i=num;i>0;i=i/10) {
+            sumOfDigits = sumOfDigits + i % 10;
+        }
+        System.out.println(sumOfDigits);
