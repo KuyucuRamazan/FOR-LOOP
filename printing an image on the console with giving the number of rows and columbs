@@ -1,0 +1,19 @@
+ //Type code to print the following image on the console
+              /*
+              X X X X X
+              X X X X X
+              X X X X X
+               */
+        System.out.println();
+        System.out.println("Enter the number of columns and rows");
+        int col = input.nextInt();
+        int row = input.nextInt();
+
+        for(int i=1; i<=row; i++){
+
+            String s ="";
+            for(int k=1; k<=col; k++){
+                s = s+ "X ";
+            }
+            System.out.println(s);
+        }
